@@ -126,7 +126,7 @@ public class DataHelper {
 
     public static CardInfo getSpecialSymbolsInTheField() {
         return new CardInfo("4444 4444 4444 4441", generateDate(5, "MM"), generateDate(24, "yy"), "!@#$%^&*()", String.valueOf(faker.number().numberBetween(100, 999)));
-    } // Пробел
+    } // Спецсимволы
 
     public static CardInfo getSpecialSymbolsInTheOwnerField() {
         return new CardInfo("4444 4444 4444 4441", generateDate(5, "MM"), generateDate(24, "yy"), "PyOtR TcHaIkOvSkY", String.valueOf(faker.number().numberBetween(100, 999)));
