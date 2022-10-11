@@ -15,7 +15,6 @@ public class BdHelper {
     private static String user = System.getProperty("db.user");
     private static String password = System.getProperty("db.password");
 
-
     @SneakyThrows
     public static void clearTables() {
         val deletePaymentEntity = "DELETE FROM payment_entity";
